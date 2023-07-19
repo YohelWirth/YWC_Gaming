@@ -15,10 +15,10 @@ body {
 /* Estilos generales para el encabezado */
 header {
     width: 100%;
-    height: 5%;
+    height: auto;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,8 @@ header {
 
 main {
     width: 100%;
-    height: 90%;
+    height: 100%;
+    display: cover;
     background-size: cover;
 }
 
@@ -48,19 +49,20 @@ footer {
 
 
 /* Estilos para la barra de navegación */
+.header-nav {
+    width: 65%;
+}
+
+
 header nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
 }
 
 .box {
     justify-content: space-between;
-    width: 50;
-}
+    gap: 5%;
 
-header nav ul li {
-    margin-right: 10px;
 }
 
 nav ul li a {
@@ -194,7 +196,7 @@ svg {
     width: 100%;
     height: 70%;
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3, 32%);
     grid-template-rows: repeat(2, 400px);
     grid-gap: 60px;
     padding: 60px;
@@ -207,6 +209,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/pc.jpg);
+    background-position:center;
 }
 
 .notebook2 {
@@ -214,6 +217,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/pc2.jpg);
+    background-position:center;
 }
 
 .notebook3 {
@@ -221,6 +225,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/pc3.jpg);
+    background-position:center;
 }
 
 .notebook4 {
@@ -228,6 +233,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/pc4.jpg);
+    background-position:center;
 }
 
 .notebook5 {
@@ -235,6 +241,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/pc5.jpg);
+    background-position:center;
 }
 
 .notebook6 {
@@ -242,6 +249,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/pc6.jpg);
+    background-position:center;
 }
 
 /*css monitores*/
@@ -266,7 +274,7 @@ svg {
     padding: 60px;
     justify-content: center;
     color: rgb(221, 14, 14);
-    }
+}
 
 .monitor1 {
     width: 100%;
@@ -307,24 +315,27 @@ svg {
     background-image: url(../assets/fonts/fondoperiferico.jpg);
 }
 
+.ulpages {
+    width: 100%;
+}
+
 .perifericosbase {
     color: rgb(221, 14, 14);
     display: grid;
-    grid-template-columns:repeat(3, 500px);
-    grid-template-rows:400px;
-    justify-items: center;
-    padding: 60px;
-    grid-gap: 100PX;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: 400px;
+    padding: 2%;
+    grid-gap: 2%;
 }
 
 .perifericosbase2 {
     color: rgb(221, 14, 14);
     display: grid;
-    grid-template-columns:repeat(2, 500px);
-    grid-template-rows:400px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 400px;
     justify-content: center;
-    padding: 60px;
-    grid-gap: 100PX;
+    padding: 2%;
+    grid-gap: 2%;
 }
 
 
@@ -333,6 +344,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/auricular.jpg);
+    background-position: center;
 }
 
 .periferico2 {
@@ -340,6 +352,7 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/teclado.jpg);
+    background-position: center;
 }
 
 .periferico3 {
@@ -347,6 +360,8 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/teclado2.jpg);
+    background-position: center;
+
 }
 
 .periferico4 {
@@ -354,6 +369,8 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/mouse.jpg);
+    background-position: center;
+
 }
 
 .periferico5 {
@@ -361,6 +378,8 @@ svg {
     height: 100%;
     background-size: cover;
     background-image: url(../assets/fonts/mouse2.jpg);
+    background-position: center;
+
 }
 
 /*css punto de venta*/
@@ -371,7 +390,7 @@ svg {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     background-image: url(../assets/fonts/joistick.jpg);
 }
 
@@ -386,8 +405,8 @@ svg {
     background-color: rgba(0, 0, 243, 0.253);
 }
 
-.ulpuntodeventas{
-padding: 10px;
+.ulpuntodeventas {
+    padding: 10px;
 }
 
 .imgpunto {
@@ -400,30 +419,47 @@ padding: 10px;
     background-image: url(../assets/fonts/geojango-maps-Z8UgB80_46w-unsplash\ \(1\).jpg);
 }
 
-.lifond{
+.lifond {
     background-color: rgb(175, 174, 174);
 }
 
 @media screen and (max-width:768px) {
     /*media perifericos*/
-    .perifericosbase{
+
+    header {
+        display: cover;
+    }
+
+    .perifericosbase {
         display: grid;
-        justify-content: center ;
-        grid-template-columns: repeat(2, 15.625rem);
-        grid-template-rows: 15.625rem 15.625rem;
+        justify-content: center;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 400px 400px;
     }
-    .perifericosbase2{
-        grid-template-columns: repeat(2, 15.625rem);
-        grid-template-rows: 15.625rem;
+
+    .perifericosbase2 {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows:400px;
     }
-    .fondoperifericos{
+
+    .fondoperifericos {
         background-size: cover;
+        background-position: center;
     }
+
+    .ulpages {
+        font-size: 0.5%;
+    }
+
+    .psesion {
+        font-size: 0;
+    }
+
     /*media notebooks*/
-    .notebooksbase{
+    .notebooksbase {
         display: grid;
         background-size: cover;
-        justify-content: center ;
+        justify-content: center;
         grid-template-columns: repeat(2, 15.625rem);
         grid-template-rows: 15.625rem 15.625rem 15.625rem;
         padding: 60px;
@@ -433,46 +469,61 @@ padding: 10px;
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:580px) {
+
     /*media perifericos*/
-    .perifericosbase{
-        display: grid;
-        justify-content: center ;
-        grid-template-columns: 12.5rem;
-        grid-template-rows: 12.5rem 12.5rem 12.5rem;
-    }
-    .perifericosbase2{
-        align-items: center;
-        grid-template-columns:12.5rem;
-        grid-template-rows: 12.5rem 12.5rem;
-    }
-    .fondoperifericos{
-        background-size: cover;
-    }
-    h1{
-        font-size: 11px;
-    }
-    .box{
-        font-size: 7px;
-        gap: .125rem;
-    }
-    header{
-        height: 50px;
-    }
-    .ulpages{
-        font-size: 7px;
+    header {
+        display: cover;
+        width: 100%;
     }
 
-    .psesion{
+    .perifericosbase {
+        display: cover;
+        display: grid;
+        justify-content: cover;
+        grid-template-columns: 70%;
+        grid-template-rows: 300px 300px 300px;
+    }
+
+    .perifericosbase2 {
+        display: cover;
+        align-items: cover;
+        grid-template-columns: 70%;
+        grid-template-rows: 300px 300px;
+        padding-top: 8%;
+    }
+    
+
+    .fondoperifericos {
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 11px;
+    }
+
+    .box {
+        font-size: 10%;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    .ulpages {
+        font-size: 1%;
+    }
+
+    .psesion {
         font-size: 0;
     }
 
-    .psesion img{
+    .psesion img {
         width: 100%;
         height: auto;
     }
 
-    .notebooksbase{
+    .notebooksbase {
         grid-template-columns: 12.5rem;
         grid-template-rows: repeat(6, 12.5rem);
     }

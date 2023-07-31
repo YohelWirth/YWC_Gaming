@@ -1,0 +1,10 @@
+@mixin header{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

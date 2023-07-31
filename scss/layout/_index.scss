@@ -1,0 +1,95 @@
+.product-1 {
+    width: 100%;
+    height: 50%;
+    background-image: url(../assets/fonts/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 60%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    border-radius: 30px 30px 30px;
+    background-color: black;
+    width: 30px;
+    padding: 5px;
+}
+
+.saleimg {
+    width: 100%;
+    height: 50%;
+    background-image: url(../assets/fonts/sale.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerh2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2oferta {
+    color: red;
+    width: 50%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.769);
+}
+
+.containerimg {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productimg1 {
+    background-image: url(../assets/fonts/monitor.jpg);
+}
+
+.productimg2 {
+    background-image: url(../assets/fonts/teclado.jpg);
+
+
+}
+
+.productimg3 {
+    background-image: url(../assets/fonts/pc.jpg);
+
+}
+
+.backgroundimg {
+    width: 30%;
+    height: 40%;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}

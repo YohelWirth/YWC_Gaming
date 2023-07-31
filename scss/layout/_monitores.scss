@@ -1,0 +1,49 @@
+.fondomonitor {
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/fonts/fondomonitor2.jpg);
+}
+
+.monitorbase {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 45% 45%;
+    background-origin: center;
+    grid-gap: 10%;
+    padding: 10%;
+    color: rgb(221, 14, 14);
+}
+
+.monitor1 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../assets/fonts/monitor.jpg);
+}
+
+.monitor2 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../assets/fonts/monitor2.jpg);
+}
+
+.monitor3 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../assets/fonts/monitor3.jpg);
+}
+
+.monitor4 {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../assets/fonts/monitor4.jpg);
+}

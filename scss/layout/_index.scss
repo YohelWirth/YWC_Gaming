@@ -19,6 +19,7 @@
     align-items: center;
     justify-content: center;
     color: white;
+    text-align: center;
 }
 
 nav ul li a:hover {
@@ -43,6 +44,7 @@ nav ul li a:hover {
 .containerh2 {
     width: 100%;
     height: 20%;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +65,8 @@ nav ul li a:hover {
     height: 70%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8%;
 }
 
 .productimg1 {
@@ -71,22 +74,17 @@ nav ul li a:hover {
 }
 
 .productimg2 {
-    background-image: url(../assets/fonts/teclado.jpg);
-
-
-}
-
-.productimg3 {
     background-image: url(../assets/fonts/pc.jpg);
 
 }
 
 .backgroundimg {
-    width: 30%;
-    height: 40%;
+    gap: 10%;
+    width: 40%;
+    height: 100%;
     background-repeat: none;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 }
 
 svg {

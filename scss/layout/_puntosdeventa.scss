@@ -6,11 +6,12 @@
     align-items: center;
     justify-content: center;
     background-image: url(../assets/fonts/joistick.jpg);
+    background-size: cover;
 }
 
 .contenedorpunto {
     width: 80%;
-    height: 50%;
+    height: 80%;
     position: relative;
     display: flex;
     align-items: center;
@@ -20,12 +21,15 @@
 }
 
 .ulpuntodeventas {
+    list-style: none;
     padding: 10px;
+    font-size: 100%;
+
 }
 
 .imgpunto {
-    width: 50%;
-    height: 50%;
+    width: 62%;
+    height: 60%;
     display: flex;
     justify-content: space-between;
     background-repeat: none;

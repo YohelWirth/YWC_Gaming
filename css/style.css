@@ -1,514 +1,542 @@
 footer {
-    width: 100%;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header {
-    width: 100%;
-    height: auto;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tituloheader {
-    text-decoration-line: none;
-    color: rgb(80, 80, 195);
-    display: flex;
-    text-align: center;
+  text-decoration-line: none;
+  color: rgb(80, 80, 195);
+  display: flex;
+  text-align: center;
 }
 
 .header-nav {
-    width: 65%;
+  width: 65%;
 }
 
 header nav ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .box {
-    justify-content: space-between;
-    gap: 5%;
+  justify-content: space-between;
+  gap: 5%;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #030303;
+  text-decoration: none;
+  color: #030303;
 }
 
 .product-1 {
-    width: 100%;
-    height: 50%;
-    background-image: url(../assets/fonts/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg);
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 50%;
+  background-image: url(../assets/fonts/fredrick-tendong-6ou8gWpS9ns-unsplash.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contenedor {
-    width: 60%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, 0.479);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  width: 60%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.479);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
 }
 
 nav ul li a:hover {
-    color: rgb(255, 255, 255);
-    border-radius: 30px 30px 30px;
-    background-color: black;
-    width: 30px;
-    padding: 5px;
+  color: rgb(255, 255, 255);
+  border-radius: 30px 30px 30px;
+  background-color: black;
+  width: 30px;
+  padding: 5px;
 }
 
 .saleimg {
-    width: 100%;
-    height: 50%;
-    background-image: url(../assets/fonts/sale.jpg);
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 50%;
+  background-image: url(../assets/fonts/sale.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .containerh2 {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .h2oferta {
-    color: red;
-    width: 50%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.769);
+  color: red;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.769);
 }
 
 .containerimg {
-    width: 100%;
-    height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8%;
 }
 
 .productimg1 {
-    background-image: url(../assets/fonts/monitor.jpg);
+  background-image: url(../assets/fonts/monitor.jpg);
 }
 
 .productimg2 {
-    background-image: url(../assets/fonts/teclado.jpg);
-}
-
-.productimg3 {
-    background-image: url(../assets/fonts/pc.jpg);
+  background-image: url(../assets/fonts/pc.jpg);
 }
 
 .backgroundimg {
-    width: 30%;
-    height: 40%;
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
+  gap: 10%;
+  width: 40%;
+  height: 100%;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
 }
 
 svg {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 main {
-    width: 100%;
-    height: 100%;
-    display: cover;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: cover;
+  background-size: cover;
 }
 
 .fondomonitor {
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/fonts/fondomonitor2.jpg);
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/fondomonitor2.jpg);
 }
 
 .monitorbase {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-template-rows: 45% 45%;
-    grid-gap: 10%;
-    padding: 10%;
-    color: rgb(221, 14, 14);
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 35% 35%;
+  grid-gap: 5%;
+  padding: 5%;
+  color: rgb(221, 14, 14);
 }
 
 .monitor1 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/monitor.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/monitor.jpg);
 }
 
 .monitor2 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/monitor2.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/monitor2.jpg);
 }
 
 .monitor3 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/monitor3.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/monitor3.jpg);
 }
 
 .monitor4 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/monitor4.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/monitor4.jpg);
 }
 
 .fondonotebooks {
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/fonts/FONDO-NOTEBOOKS.jpg);
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/FONDO-NOTEBOOKS.jpg);
 }
 
 .bodypages {
-    width: 100%;
-    height: 1920px;
+  width: 100%;
+  height: 1920px;
 }
 
 .ulpages {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(3, 3, 3, 0.7843137255);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(3, 3, 3, 0.7843137255);
 }
 
 .notebooksbase {
-    width: 100%;
-    height: 70%;
-    display: grid;
-    grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(2, 400px);
-    grid-gap: 60px;
-    padding: 60px;
-    justify-content: center;
-    color: rgb(221, 14, 14);
+  width: 100%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-template-rows: repeat(2, 400px);
+  grid-gap: 60px;
+  padding: 60px;
+  justify-content: center;
+  color: rgb(221, 14, 14);
 }
 
 .notebook1 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/pc.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/pc.jpg);
+  background-position: center;
 }
 
 .notebook2 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/pc2.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/pc2.jpg);
+  background-position: center;
 }
 
 .notebook3 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/pc3.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/pc3.jpg);
+  background-position: center;
 }
 
 .notebook4 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/pc4.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/pc4.jpg);
+  background-position: center;
 }
 
 .notebook5 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/pc5.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/pc5.jpg);
+  background-position: center;
 }
 
 .notebook6 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/pc6.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/pc6.jpg);
+  background-position: center;
 }
 
 .fondoperifericos {
-    color: #ffffff;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../assets/fonts/fondoperiferico.jpg);
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../assets/fonts/fondoperiferico.jpg);
 }
 
 .ulpages {
-    width: 100%;
+  width: 100%;
 }
 
 .perifericosbase {
-    color: rgb(221, 14, 14);
-    display: grid;
-    grid-template-columns: repeat(3, 32%);
-    grid-template-rows: 400px;
-    padding: 2%;
-    grid-gap: 2%;
+  color: rgb(221, 14, 14);
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  grid-template-rows: 400px;
+  padding: 2%;
+  grid-gap: 2%;
+  justify-content: center;
 }
 
 .perifericosbase2 {
-    color: rgb(221, 14, 14);
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 400px;
-    justify-content: center;
-    padding: 2%;
-    grid-gap: 2%;
+  color: rgb(221, 14, 14);
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-template-rows: 400px;
+  justify-content: center;
+  padding: 2%;
+  grid-gap: 2%;
 }
 
 .periferico1 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/auricular.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/auricular.jpg);
+  background-position: center;
 }
 
 .periferico2 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/teclado.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/teclado.jpg);
+  background-position: center;
 }
 
 .periferico3 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/teclado2.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/teclado2.jpg);
+  background-position: center;
 }
 
 .periferico4 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/mouse.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/mouse.jpg);
+  background-position: center;
 }
 
 .periferico5 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-image: url(../assets/fonts/mouse2.jpg);
-    background-position: center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(../assets/fonts/mouse2.jpg);
+  background-position: center;
 }
 
 .fondopunto {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../assets/fonts/joistick.jpg);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../assets/fonts/joistick.jpg);
+  background-size: cover;
 }
 
 .contenedorpunto {
-    width: 80%;
-    height: 50%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 243, 0.253);
+  width: 80%;
+  height: 80%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 243, 0.253);
 }
 
 .ulpuntodeventas {
-    padding: 10px;
+  list-style: none;
+  padding: 10px;
+  font-size: 100%;
 }
 
 .imgpunto {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: space-between;
-    background-repeat: none;
-    background-size: cover;
-    background-image: url(../assets/fonts/geojango-maps-Z8UgB80_46w-unsplash\ \(1\).jpg);
+  width: 62%;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  background-repeat: none;
+  background-size: cover;
+  background-image: url(../assets/fonts/geojango-maps-Z8UgB80_46w-unsplash\ \(1\).jpg);
 }
 
 .lifond {
-    background-color: rgb(175, 174, 174);
+  background-color: rgb(175, 174, 174);
 }
 
 body {
-    width: 100%;
-    height: 1920px;
-    font-family: "DM Sans", sans-serif;
-    font-family: "Raleway", sans-serif;
+  width: 100%;
+  height: 1920px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
-
-    /*media perifericos*/
-    header {
-        display: cover;
-    }
-
-    .perifericosbase {
-        display: grid;
-        justify-content: center;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 400px 400px;
-    }
-
-    .perifericosbase2 {
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 400px;
-    }
-
-    .fondoperifericos {
-        background-size: cover;
-        background-position: center;
-    }
-
-    .ulpages {
-        font-size: 0.5%;
-    }
-
-    .psesion {
-        font-size: 0;
-    }
-
-    /*media notebooks*/
-    .notebooksbase {
-        display: grid;
-        background-size: cover;
-        justify-content: center;
-        grid-template-columns: repeat(2, 15.625rem);
-        grid-template-rows: 15.625rem 15.625rem 15.625rem;
-        padding: 60px;
-        grid-gap: 2.5rem;
-        background-size: cover;
-        background-repeat: none;
-    }
-
-    /*media monitores*/
-    .monitorbase {
-        grid-template-columns: 70%;
-        grid-template-rows: repeat(4, 17%);
-        justify-content: center;
-    }
+  /*media perifericos*/
+  header {
+    display: cover;
+  }
+  .perifericosbase {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 400px;
+    align-items: center;
+  }
+  .perifericosbase2 {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 400px 400px;
+  }
+  .fondoperifericos {
+    background-size: cover;
+    background-position: center;
+  }
+  .ulpages {
+    font-size: 0.5%;
+  }
+  .psesion {
+    font-size: 0;
+  }
+  /*media notebooks*/
+  .notebooksbase {
+    display: grid;
+    background-size: cover;
+    justify-content: center;
+    grid-template-columns: repeat(2, 15.625rem);
+    grid-template-rows: 15.625rem 15.625rem 15.625rem;
+    padding: 60px;
+    grid-gap: 2.5rem;
+    background-size: cover;
+    background-repeat: none;
+  }
+  /*media monitores*/
+  .monitorbase {
+    grid-template-columns: 70%;
+    grid-template-rows: repeat(4, 17%);
+    justify-content: center;
+  }
+  /*media index*/
+  .productimg1 {
+    height: 70%;
+    width: 40%;
+  }
+  .productimg2 {
+    height: 70%;
+    width: 40%;
+  }
+  /*Media punto de venta*/
+  .contenedorpunto {
+    gap: 8%;
+    flex-direction: column;
+  }
+  .ulpuntodeventas {
+    text-align: center;
+  }
+  .imgpunto {
+    background-position: center;
+  }
 }
-
 @media screen and (max-width: 580px) {
-
-    /*media perifericos*/
-    header {
-        display: cover;
-        width: 100%;
-    }
-
-    .perifericosbase {
-        display: cover;
-        display: grid;
-        justify-content: cover;
-        grid-template-columns: 70%;
-        grid-template-rows: 300px 300px 300px;
-    }
-
-    .perifericosbase2 {
-        display: cover;
-        align-items: cover;
-        grid-template-columns: 70%;
-        grid-template-rows: 300px 300px;
-        padding-top: 8%;
-    }
-
-    .fondoperifericos {
-        background-size: cover;
-    }
-
-    h1 {
-        font-size: 11px;
-    }
-
-    .box {
-        font-size: 70%;
-    }
-
-    header {
-        height: 50px;
-    }
-
-    .ulpages {
-        font-size: 70%;
-    }
-
-    /*media notebooks*/
-    .psesion {
-        font-size: 0;
-    }
-
-    .psesion img {
-        width: 100%;
-        height: auto;
-    }
-
-    .notebooksbase {
-        grid-template-columns: 15.625rem;
-        grid-template-rows: repeat(6, 15.625rem);
-    }
+  /*media perifericos*/
+  header {
+    display: cover;
+    width: 100%;
+  }
+  .perifericosbase {
+    display: cover;
+    display: grid;
+    justify-content: cover;
+    grid-template-columns: 70%;
+    grid-template-rows: 300px 300px;
+  }
+  .perifericosbase2 {
+    display: cover;
+    align-items: cover;
+    grid-template-columns: 70%;
+    grid-template-rows: 300px 300px 300px;
+    padding-top: 8%;
+  }
+  .fondoperifericos {
+    background-size: cover;
+  }
+  h1 {
+    font-size: 11px;
+  }
+  .box {
+    font-size: 70%;
+  }
+  header {
+    height: 50px;
+  }
+  .ulpages {
+    font-size: 70%;
+  }
+  /*media notebooks*/
+  .psesion {
+    font-size: 0;
+  }
+  .psesion img {
+    width: 100%;
+    height: auto;
+  }
+  .notebooksbase {
+    grid-template-columns: 15.625rem;
+    grid-template-rows: repeat(6, 15.625rem);
+  }
+  /*media index*/
+  .containerimg {
+    flex-direction: column;
+  }
+  .productimg1 {
+    height: 90%;
+    width: 90%;
+  }
+  .productimg2 {
+    height: 90%;
+    width: 90%;
+  }
+  footer .facebook {
+    font-size: 0%;
+  }
+  footer .instagram {
+    font-size: 0%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

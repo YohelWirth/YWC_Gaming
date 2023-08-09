@@ -15,12 +15,13 @@
         display: grid;
         justify-content: center;
         grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 400px 400px;
+        grid-template-rows: 400px;
+        align-items: center;
     }
 
     .perifericosbase2 {
         grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 400px;
+        grid-template-rows: 400px 400px;
     }
 
     .fondoperifericos {
@@ -56,6 +57,27 @@
         justify-content: center;
     }
 
+    /*media index*/
+    .productimg1{
+        height: 70%;
+        width: 40%;
+    }
+    .productimg2{
+        height: 70%;
+        width: 40%;
+    }
+    /*Media punto de venta*/
+    .contenedorpunto{
+        gap: 8%;
+        flex-direction: column;
+    }
+
+    .ulpuntodeventas{
+        text-align: center;
+    }
+    .imgpunto{
+        background-position: center;
+    }
 }
 
 
@@ -73,14 +95,14 @@
         display: grid;
         justify-content: cover;
         grid-template-columns: 70%;
-        grid-template-rows: 300px 300px 300px;
+        grid-template-rows: 300px 300px;
     }
 
     .perifericosbase2 {
         display: cover;
         align-items: cover;
         grid-template-columns: 70%;
-        grid-template-rows: 300px 300px;
+        grid-template-rows: 300px 300px 300px;
         padding-top: 8%;
     }
 
@@ -119,5 +141,26 @@
     .notebooksbase {
         grid-template-columns: 15.625rem;
         grid-template-rows: repeat(6, 15.625rem);
+    }
+    
+    /*media index*/
+    .containerimg{
+        flex-direction: column;
+    }
+    .productimg1{
+        height: 90%;
+        width: 90%;
+    }
+    .productimg2{
+        height: 90%;
+        width: 90%;
+    }
+    footer{
+        .facebook{
+            font-size: 0%;
+        }
+        .instagram{
+            font-size: 0%;
+        }
     }
 }

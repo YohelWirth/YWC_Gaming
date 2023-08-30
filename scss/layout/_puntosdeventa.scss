@@ -21,16 +21,18 @@
 }
 
 .ulpuntodeventas {
+    align-items: center;
     list-style: none;
     padding: 10px;
     font-size: 100%;
-
 }
 
-.imgpuntodve{
-    width: 70%;
-    height: 50%;
+.imgpuntodve {
+    position: relative;
+    width: 49%;
+    overflow: hidden;
 }
+
 
 .lifond {
     background-color: rgb(175, 174, 174);

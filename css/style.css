@@ -1,3 +1,10 @@
+body {
+  width: 100%;
+  height: 1920px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
 footer {
   width: 100%;
   height: 5%;
@@ -40,6 +47,10 @@ header nav ul {
 
 nav ul li a {
   text-decoration: none;
+  color: #030303;
+}
+
+.psesion {
   color: #030303;
 }
 
@@ -231,6 +242,10 @@ main {
   color: rgb(221, 14, 14);
 }
 
+.notebooks {
+  position: relative;
+}
+
 .notebook1 {
   width: 100%;
   height: 100%;
@@ -312,6 +327,10 @@ main {
   grid-gap: 2%;
 }
 
+.perifericos {
+  position: relative;
+}
+
 .periferico1 {
   width: 100%;
   height: 100%;
@@ -375,30 +394,20 @@ main {
 }
 
 .ulpuntodeventas {
+  align-items: center;
   list-style: none;
   padding: 10px;
   font-size: 100%;
 }
 
-.imgpunto {
-  width: 62%;
-  height: 60%;
-  display: flex;
-  justify-content: space-between;
-  background-repeat: none;
-  background-size: cover;
-  background-image: url(../assets/fonts/geojango-maps-Z8UgB80_46w-unsplash\ \(1\).jpg);
+.imgpuntodve {
+  position: relative;
+  width: 49%;
+  overflow: hidden;
 }
 
 .lifond {
   background-color: rgb(175, 174, 174);
-}
-
-body {
-  width: 100%;
-  height: 1920px;
-  font-family: "DM Sans", sans-serif;
-  font-family: "Raleway", sans-serif;
 }
 
 * {
@@ -465,11 +474,11 @@ body {
     gap: 8%;
     flex-direction: column;
   }
+  .imgpuntodve {
+    white-space: 90%;
+  }
   .ulpuntodeventas {
     text-align: center;
-  }
-  .imgpunto {
-    background-position: center;
   }
 }
 @media screen and (max-width: 580px) {
@@ -537,6 +546,11 @@ body {
   footer .instagram {
     font-size: 0%;
   }
+}
+.container-precio {
+  color: aliceblue;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.574);
 }
 
 /*# sourceMappingURL=style.css.map */

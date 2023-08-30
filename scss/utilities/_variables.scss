@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width:768px) {
     /*media perifericos*/
 
@@ -72,11 +74,12 @@
         flex-direction: column;
     }
 
+    .imgpuntodve{
+        white-space: 90%;
+    }
+
     .ulpuntodeventas{
         text-align: center;
-    }
-    .imgpunto{
-        background-position: center;
     }
 }
 
@@ -163,4 +166,10 @@
             font-size: 0%;
         }
     }
+}
+
+.container-precio{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.574);
 }
